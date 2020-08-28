@@ -3,7 +3,7 @@ This repo features the installation of OpenDaylight and the use of Netconf Testt
 
 Note: Tested using CentOS 7.x
 
-## Installation
+## Installation & Usage
 Step 1: Clone the repo to a virtual machine or physical machine running CentOS 7.x
 
 Step 2: Cd into the directory and execute ```./setup_odl.sh```
