@@ -7,6 +7,7 @@ Note: Tested using CentOS 7.x
 Step 1: Clone the repo to a virtual machine or physical machine running CentOS 7.x
 
 Step 2: Cd into the directory and execute ```./setup_odl.sh```
+Note: If the script isn't executing, execute the command ```sudo chmod +x <<script-name>>```
 
 Step 3: Once the script has finished, in your terminal, you will be prompted with ```opendaylight-user@root>```. Enter the commands ```feature:repo-refresh``` and ```feature:install odl-ovsdb-library odl-restconf-all odl-ovsdb-southbound-api odl-ovsdb-southbound-impl odl-ovsdb-southbound-impl-rest odl-mdsal-apidocs odl-netconf-topology``` to finish configuring OpenDaylight.
 
