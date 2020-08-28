@@ -10,7 +10,7 @@ Step 2: Cd into the directory and execute ```./setup_odl.sh```
 
 Step 3: Once the script has finished, in your terminal, you will be prompted with ```opendaylight-user@root>```. Enter the commands ```feature:repo-refresh``` and ```feature:install odl-ovsdb-library odl-restconf-all odl-ovsdb-southbound-api odl-ovsdb-southbound-impl odl-ovsdb-southbound-impl-rest odl-mdsal-apidocs odl-netconf-topology``` to finish configuring OpenDaylight.
 
-Step 4: In a new terminal window/tab, cd into the main directory once again and execute the command ```java -jar netconf-testtool-1.8.2-executable.jar --schemas-dir testtool-models/``` to start the Netconf Testtool and load the YANG models associated with it.
+Step 4: In a new terminal window/tab, cd into the main directory once again and execute ```./start_testtool``` to start the Netconf Testtool and load the YANG models associated with it.
 
 Step 5 - Option 1: Assuming Jupyter Notebook has been installed (```pip install notebook```), open Testtool.ipynb and replace the ```controller_ip``` variable with the IP address of your controller. Execute all of the cells in the notebook to mount your simulated netconf device and add an interface to it using OpenConfig:Interfaces.
 
