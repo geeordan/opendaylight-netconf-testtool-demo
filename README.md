@@ -15,6 +15,5 @@ Step 4: In a new terminal window/tab, cd into the main directory once again and 
 Step 5 - Option 1: Assuming Jupyter Notebook has been installed (```pip install notebook```), open Testtool.ipynb and replace the ```controller_ip``` variable with the IP address of your controller. Execute all of the cells in the notebook to mount your simulated netconf device and add an interface to it using OpenConfig:Interfaces.
 
 Step 5 - Option 2: If you would like to mount and configure the testtool on the device hosting the controller, execute the scrips in the cURL_scripts directory.
-
 Note: By default, the controller IP address has been assigned to ```localhost``` in all of the scripts. If the controller IP address differs, configure all of the scripts accordingly.
 
